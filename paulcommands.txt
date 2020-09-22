@@ -1,0 +1,6 @@
+git checkout -b pauls-branch 
+vim members.txt 
+vim paulcommands.txt
+git add .
+git commit -m "paul branch changes" 
+git push origin pauls-branch
