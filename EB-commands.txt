@@ -1,0 +1,23 @@
+(base) MacBook:~ Vena$ c
+-bash: c: command not found
+(base) MacBook:~ Vena$ cd
+(base) MacBook:~ Vena$ Desktop/Computational-Social-Science-Training-Program-master/
+-bash: Desktop/Computational-Social-Science-Training-Program-master/: is a directory
+(base) MacBook:~ Vena$ pwd
+/Users/Vena
+(base) MacBook:~ Vena$ cd Desktop/
+(base) MacBook:Desktop Vena$ cd Computational-Social-Science-Training-Program-master/
+(base) MacBook:Computational-Social-Science-Training-Program-master Vena$ git clone https://github.com/paulbsalamanca/GitHub-Collaboration-Practice.git
+Cloning into 'GitHub-Collaboration-Practice'...
+remote: Enumerating objects: 10, done.
+remote: Counting objects: 100% (10/10), done.
+remote: Compressing objects: 100% (7/7), done.
+remote: Total 10 (delta 0), reused 7 (delta 0), pack-reused 0
+Unpacking objects: 100% (10/10), 1.43 KiB | 112.00 KiB/s, done.
+(base) MacBook:Computational-Social-Science-Training-Program-master Vena$ cd GitHub-Collaboration-Practice/
+(base) MacBook:GitHub-Collaboration-Practice Vena$ git checkout -b members.txt 
+Switched to a new branch 'members.txt'
+(base) MacBook:GitHub-Collaboration-Practice Vena$ 
+(base) MacBook:GitHub-Collaboration-Practice Vena$ vim members.txt
+(base) MacBook:GitHub-Collaboration-Practice Vena$ vim EB commands.txt
+next I will git add, git commit -m, and git push
