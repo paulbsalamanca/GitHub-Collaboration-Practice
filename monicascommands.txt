@@ -1,0 +1,11 @@
+cd desktop
+cd CSS
+git clone https://github.com/paulbsalamanca/GitHub-Collaboration-Practice.git
+cd GitHub-Collaboration-Practice
+vim members.txt
+touch monicastext.txt
+vim monicastext.txt
+git add *
+git commit -m "Monica's branch changes"
+git push origin monicas-branch
+
